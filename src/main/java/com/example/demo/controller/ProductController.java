@@ -12,6 +12,6 @@ import java.util.List;
 public class ProductController {
     @GetMapping
     public List<Product> getAllProducts() {
-        return List.of(new Product(1L, "Test Product"));
+        return List.of(new Product(1, "Test Product"));
     }
 }
